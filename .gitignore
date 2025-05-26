@@ -1,0 +1,63 @@
+# Ignore build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Logs
+logs/
+*.log
+
+# ASP.NET Core environment files
+.env
+.env.*
+
+# Visual Studio Code settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# Dependency directories
+node_modules/
+packages/
+
+# Generated files
+*.generated.cs
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Coverage reports
+coverage/
+*.coverage
+*.coveragexml
+*.codecov
+
+# Publish output
+wwwroot/
+dist/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets
+secrets.json
+
+# Docker files
+docker-compose.override.yml
